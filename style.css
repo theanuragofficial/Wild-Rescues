@@ -1,0 +1,84 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #2a1f14;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+.hero {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1511198510849-15639eaf2e9c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyNjE2ODB8&ixlib=rb-4.0.3&q=85");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: left;
+  color: #2a1f14;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 6em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+main {
+  padding: 50px 0;
+}
+
+footer {
+  background-color: #2a1f14;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-color: #2a1f14;
+}
+
+.navbar-toggler {
+  border-color: #2a1f14;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
